@@ -34,8 +34,12 @@
       "allowedRoles": ["administrator", "customers_contoso"]
     },
     {
-      "route": "/login",
-      "rewrite": "/.auth/login/github"
+      "route": "/subfolder/rewrite*",
+      "rewrite": "/rewrite.html"
+    },
+    {
+      "route": "/subfolder/redirect*",
+      "redirect": "/redirect.html"
     },
     {
       "route": "/.auth/login/twitter",
