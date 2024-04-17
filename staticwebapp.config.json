@@ -21,11 +21,6 @@
       }
     },
     {
-      "route": "/*",
-      "methods": ["GET"],
-      "allowedRoles": ["registeredusers"]
-    },
-    {
       "route": "/api/*",
       "methods": ["PUT", "POST", "PATCH", "DELETE"],
       "allowedRoles": ["administrator"]
