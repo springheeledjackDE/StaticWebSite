@@ -3,7 +3,7 @@
   "routes": [
     {
       "route": "/login",
-      "allowedRoles": ["authenticated"]
+      "rewrite": "/.auth/login/twitter"
     },
     {
       "route": "/admin/index.html",
