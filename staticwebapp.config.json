@@ -34,11 +34,11 @@
       "allowedRoles": ["administrator", "customers_contoso"]
     },
     {
-      "route": "/subfolder/rewrite*",
+      "route": "/subfolder/rewritten*",
       "rewrite": "/rewrite.html"
     },
     {
-      "route": "/subfolder/redirect*",
+      "route": "/subfolder/redirected*",
       "redirect": "/redirect.html"
     },
     {
