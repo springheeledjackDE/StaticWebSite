@@ -16,7 +16,7 @@
       }
     },
     {
-      "route": "/api/*",
+      "route": "/*",
       "methods": ["GET"],
       "allowedRoles": ["registeredusers"]
     },
