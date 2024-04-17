@@ -2,6 +2,11 @@
   "trailingSlash": "auto",
   "routes": [
     {
+      "route": "/api/*",
+      "methods":["GET"],
+      "allowedRoles": ["registeredusers"]
+    },
+    {
       "route": "/login",
       "rewrite": "/.auth/login/github"
     },
